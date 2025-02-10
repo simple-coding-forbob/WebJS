@@ -15,24 +15,15 @@
 
     <!-- Demo styles -->
     <style>
-      .cat {
+      .example {
         width: 100%;
-        height: 60vh;
-        background-image: url("../img/15_click_attr_cat.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
       }
-      .dog {
-        width: 100%;
-        height: 60vh;
-        background-image: url("../img/15_click_attr_dog.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+      .example > img {
+        max-width: 100%;
+        height: auto;
       }
       .swiper {
-        width: 100%;
+        width: 30%;
       }
     </style>
   </head>
@@ -41,18 +32,24 @@
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <!-- TODO: 여기에 1번 배경이미지 사용하기 -->
-          <div class="cat"></div>
+          <!-- TODO: 여기에 1번 이미지 사용하기 -->
+          <div class="example">
+            <img src="../img/15_click_attr_cat.jpg" alt="고양이" />
+          </div>
         </div>
         <div class="swiper-slide">
-          <!-- TODO: 여기에 2번 배경이미지 사용하기 -->
-          <div class="dog"></div>
+          <!-- TODO: 여기에 2번 이미지 사용하기 -->
+          <div class="example">
+            <img src="../img/15_click_attr_dog.jpg" alt="강아지" />
+          </div>
         </div>
       </div>
+      <!-- TODO: 페이지 표시: 플러그인이 자동으로 그려줌(...) -->
+      <div class="swiper-pagination"></div>
     </div>
 
     <!-- Swiper JS: 공식사이트) https://swiperjs.com/demos -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./js/01_slide.js"></script>
+    <script src="./js/02_slide2.js"></script>
   </body>
 </html>
