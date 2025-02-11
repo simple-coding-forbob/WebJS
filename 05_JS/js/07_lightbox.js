@@ -1,0 +1,1 @@
+$('.wraper a').simpleLightbox();
