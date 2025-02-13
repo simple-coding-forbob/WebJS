@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {width: 99vw;height: 4vh; background-color: darkgreen; color: white;}
+li {list-style-type: none;}
+
+#quiz {position: fixed;top: 0;left: 0;right: 0;}
+#quiz > li {float: left; margin-left: 10px;}
