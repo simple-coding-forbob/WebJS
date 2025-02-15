@@ -25,7 +25,17 @@
    <!-- jquery 넣기 -->
    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
    <!-- TODO: 예제 -->
-   <script src="./js/12_hover_slideup_slidedown.js"></script>
+   <script>
+      // TODO: sub-menu 에 마우스가 올라가면 drop-down 메뉴를 천천히 아래로 보여주고
+      // TODO: 마우스가 내려가면 천천히 위로 숨기세요 
+      $(function () {
+         $("#sub-menu").hover(function () {
+            $("#drop-down").slideDown();
+         }, function () {
+            $("#drop-down").slideUp();
+         });
+      });      
+   </script>
 </body>
 
 </html>
