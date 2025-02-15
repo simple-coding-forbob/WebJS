@@ -8,21 +8,22 @@
 </head>
 
 <body>
-   <ul id="menu">
-      <li>HTML</li>
-      <li>CSS</li>
+   <!-- TODO: 퀴즈 -->
+   <ul id="menu2">
+      <li>JS</li>
+      <li>VUE</li>
    </ul>
-   <button id="btn">숨기기/보이기</button>
-
+   <button id="quiz">숨기기/보이기</button>
    <!-- jquery 넣기 -->
    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
-   <!-- TODO: 예제 -->
+   <!-- TODO: quiz -->
    <script>
-      // TODO: btn 을 click 하면 menu 숨기고 또 click 하면 보여주세요
+      // TODO: quiz 을 click 하면 menu2 천천히 숨기고 
+      // TODO: 또 click 하면 천천히 보여주세요
       $(function(){
          // TODO: 숨기기
-         $("#btn").click(function() {
-            $("#menu").toggle();
+         $("#quiz").click(function() {
+            $("#menu2").fadeToggle("slow");
          });
       });
    </script>

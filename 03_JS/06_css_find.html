@@ -14,20 +14,16 @@
         <h1>메뉴</h1>
       </div>
     </div>
-    <!-- TODO: 퀴즈 -->
-    <div id="section">
-      <h1>본문</h1>
-      <div id="article">
-        <h1>소본문</h1>
-      </div>
-    </div>
 
    <!-- jquery 넣기 -->
    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
    <!-- TODO: 예제 -->
-   <script src="./js/06_css_find.js"></script>
-   <!-- TODO: quiz -->
-   <script src="./js/06_quiz.js"></script>
+   <script>
+      // TODO : header 안에 h1 태그들 모두 선택해서 background-color 을 yellow 바꾸세요
+      $(function(){
+          $("#header").find("h1").css("background-color", "yellow");
+      });
+   </script>
 </body>
 
 </html>

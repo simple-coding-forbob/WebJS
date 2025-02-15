@@ -6,7 +6,7 @@
 #page {
     width: 99vw;
 }
-#top {width: 100%;height: 30px;background-color: darkgreen; color: white;}
+#top {width: 100%;height: 30px;background-color: darkorange; color: white;}
 #quiz {width: 100%;height: 4vh; background-color: darkblue; color: white;}
 li {list-style-type: none;}
 #quiz > li {float: left; margin-left: 10px;}

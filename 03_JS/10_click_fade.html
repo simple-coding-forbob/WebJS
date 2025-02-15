@@ -14,18 +14,19 @@
    </ul>
    <button id="btn">숨기기/보이기</button>
    <br>
-   <!-- TODO: 퀴즈 -->
-   <ul id="menu2">
-      <li>JS</li>
-      <li>VUE</li>
-   </ul>
-   <button id="quiz">숨기기/보이기</button>
    <!-- jquery 넣기 -->
    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
    <!-- TODO: 예제 -->
-   <script src="./js/10_click_fade.js"></script>
-   <!-- TODO: quiz -->
-   <script src="./js/10_quiz.js"></script>
+   <script>
+      // TODO: btn 을 click 하면 menu 천천히 숨기고 
+      // TODO: 또 click 하면 천천히 보여주세요
+      $(function(){
+         // TODO: 숨기기
+         $("#btn").click(function() {
+            $("#menu").fadeToggle("slow");
+         });
+      });
+   </script>
 </body>
 
 </html>

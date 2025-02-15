@@ -13,7 +13,16 @@
    <!-- jquery 넣기 -->
    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
    <!-- TODO: 예제 -->
-   <script src="./js/16_hover_attr.js"></script>
+   <script>
+      // TODO: #btn 에 마우스가 위로 올라가면 고양이로 내려오면 강아지로 바꾸세요  
+      $(function () {
+         $("#animal").hover(function () {
+            $("#animal").attr("src", "../img/15_click_attr_cat.jpg");
+         }, function () {
+            $("#animal").attr("src", "../img/15_click_attr_dog.jpg");
+         });
+      });
+   </script>
 </body>
 
 </html>

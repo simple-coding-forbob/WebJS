@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <!-- TODO: 퀴즈 -->
+   <ul id="menu2">
+      <li>JS</li>
+      <li>VUE</li>
+   </ul>
+   <button id="quiz">숨기기</button>
+   <button id="quiz2">보이기</button>
+   <!-- jquery 넣기 -->
+   <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
+   <!-- TODO: quiz -->
+   <script>
+      // TODO: quiz 을 click 하면 menu2 숨기세요.
+      // TODO: quiz2 를 click 하면 menu2 를 보여주세요.
+      $(function(){
+         // TODO: 숨기기
+         $("#quiz").click(function() {
+            $("#menu2").hide();
+         });
+         // TODO: 보이기
+         $("#quiz2").click(function() {
+            $("#menu2").show();
+         });
+      });      
+   </script>
+</body>
+
+</html>

@@ -8,19 +8,21 @@
 </head>
 
 <body>
-   <img src="../img/15_click_attr_cat.jpg" width="300" id="animal" />
-   <br />
-   <button id="btn">버튼</button>
-    
+    <!-- TODO: 퀴즈 -->
+    <div id="section">
+      <h1>본문</h1>
+      <div id="article">
+        <h1>소본문</h1>
+      </div>
+    </div>
+
    <!-- jquery 넣기 -->
    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
-   <!-- TODO: 예제 -->
+   <!-- TODO: quiz -->
    <script>
-      // TODO: #btn 을 클릭하면 이미지를 강아지로 바꾸세요
+      // TODO : #section 안에 h1 태그들 모두 선택해서 background-color 을 blue 바꾸세요
       $(function(){
-         $("#btn").click(function () {
-            $("#animal").attr("src", "../img/15_click_attr_dog.jpg");
-         });
+          $("#section").find("h1").css("background-color", "blue");
       });
    </script>
 </body>

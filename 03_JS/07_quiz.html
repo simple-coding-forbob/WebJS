@@ -8,18 +8,18 @@
 </head>
 
 <body>
-   <img src="../img/15_click_attr_cat.jpg" width="300" id="animal" />
-   <br />
-   <button id="btn">버튼</button>
-    
+  <!-- TODO: 퀴즈 -->
+  <h1 id="title2">quiz</h1>
+  <button id="quiz">버튼</button>
+
    <!-- jquery 넣기 -->
    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
-   <!-- TODO: 예제 -->
+   <!-- TODO: quiz -->
    <script>
-      // TODO: #btn 을 클릭하면 이미지를 강아지로 바꾸세요
+      // TODO : btn 을 click 하면 title 의 color 를 blue 바꾸세요
       $(function(){
-         $("#btn").click(function () {
-            $("#animal").attr("src", "../img/15_click_attr_dog.jpg");
+         $("#quiz").click(function() {
+            $("#title2").css("color","blue");
          });
       });
    </script>
