@@ -8,12 +8,22 @@
 </head>
 
 <body>
-   <img src="../img/06_smart_phone_1.jpg" id="phone" alt="스마트폰" />
+   <img src="../img/9_5_2_smart_phone_1.jpg" id="phone" alt="스마트폰" />
     
    <!-- jquery 넣기 -->
    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
    <!-- TODO: 예제 -->
-   <script src="./js/06_final_quiz.js"></script>
+   <script>
+      $(function(){
+         $("#phone").hover(function () {
+            // TODO : 마우스 위
+            $("#phone").attr("src", "../img/9_5_2_smart_phone_2.jpg");
+         }, function () {
+            // TODO : 마우스 밖
+            $("#phone").attr("src", "../img/9_5_2_smart_phone_1.jpg");
+         })
+      });
+   </script>
 </body>
 
 </html>

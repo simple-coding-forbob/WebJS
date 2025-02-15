@@ -29,6 +29,14 @@
     <!-- jquery 넣기 -->
     <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
     <!-- TODO: 예제 -->
-    <script src="./js/04_final_quiz.js"></script>
+    <script>
+      $(function () {
+          $("#sub").hover(function () {
+              $("#drop").show();
+          }, function () {
+              $("#drop").hide();
+          });
+      });      
+    </script>
   </body>
 </html>

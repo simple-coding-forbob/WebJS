@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #box {
+        #quiz {
             position: absolute;
             top: 0;
             left: 0;
             width: 100px;
             height: 100px;
-            background-color: blue;
+            background-color: orange;
         }
     </style>
 </head>
 
 <body>
-    <div id="box">
+    <div id="quiz">
     </div>
     <br>
     <!-- jQuery CDN js -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
         $(function () {
-            $("#box").click(function () {
-                $("#box").animate({ left: 100, top: 100 }, 1000);
+            $("#quiz").click(function () {
+                $("#quiz").animate({ left: 100, top: 100 }, 1000);
             });
         });      
     </script>

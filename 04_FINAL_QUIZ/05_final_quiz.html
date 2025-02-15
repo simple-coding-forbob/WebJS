@@ -25,7 +25,13 @@
    <!-- jquery 넣기 -->
    <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
    <!-- TODO: 05_final_quiz -->
-   <script src="./js/05_final_quiz.js"></script>
+   <script>
+        $(function () {
+            $("#quiz").click(function() {
+                $("#heading3").removeClass().addClass("desing2");
+            });
+        });    
+   </script>
 </body>
 
 </html>

@@ -18,7 +18,12 @@
     <!-- jquery 넣기 -->
     <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
     <!-- TODO: 예제 -->
-    <script src="./js/02_final_quiz.js"></script>
+    <script>
+        $(function(){
+            $("section").children("h1").css("background-color", "skyblue")
+                                        .css("color", "white");
+        });        
+    </script>
 </body>
 
 </html>
