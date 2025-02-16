@@ -16,9 +16,10 @@ let swiper = new Swiper(".mySwiper", {
         delay: 5000,
     },
 });
+// AOS 설정
 AOS.init();
 
-// TODO : isotope 설정
+// isotope 설정
 $(function () {
     // isotope 설정하기: 1) product-box 를 isotope 대상으로 지정
     $('.product-box').isotope({
@@ -36,3 +37,9 @@ $(function () {
         });
     });
 })
+// TODO : sticky 설정
+$(function () {
+    $("#fab").click(function () {
+        $("html").animate({ scrollTop: 0 }, 1000);
+    });
+});  

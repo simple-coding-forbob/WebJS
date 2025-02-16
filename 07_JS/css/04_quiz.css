@@ -6,7 +6,7 @@
 .content-box > img {max-width: 100%; height: auto;}
 .clear {clear: both;}
 .product-area h2 {font-weight:bold; font-size:1.5rem; padding:1.5rem 0; color:var(--black);}
-.product-list li {float: left; width:50%; box-sizing: border-box; border: 1px solid var(--green-light-10);padding: 5px;}
+.product-list li {float: left; width:50%; box-sizing: border-box; border: 1px solid var(--green-light-30);padding: 5px;}
 .product-list li a {display:block; height:2.75rem; display: flex; align-items: center; justify-content: center; background-color: var(--green-light-30);color: var(--white);}
 .product {float: left; width:100%; box-sizing: border-box;padding: 5px;}
 .product img {max-width: 100%; height: auto;}

@@ -3,7 +3,7 @@ nav {width: 100%;margin: 0 auto;}
 nav .brand {float:none; text-align: center; padding:1.5rem;}
 nav .fab {display:block; position:absolute; left:15px; top:25px;}
 nav .fab img {width: 2rem;}
-nav .menu {float:none; height:auto; margin: 0 15px; /*display: none;*/}
+nav .menu {float:none; height:auto; margin: 0 15px; display: none;}
 nav .menu li {list-style-type: none; float:left; width:33%; border:1px solid var(--grayscale-20);}
 nav .menu li a {height:6rem; display: flex; align-items: center; justify-content: center;}
 nav .menu li a:hover {background-color: var(--green-light-30); color: var(--white);}
@@ -39,7 +39,7 @@ footer {clear: both;height: 6rem;background-color: beige;font-size: 14px;font-st
   /* 머리말 */
   nav {width: 90%;}
   nav .brand {float:left; padding:2.3rem;}
-  nav .fab {display:none;}
+  nav .fab {margin-top: 14px;}
   /* TODO : 태블릿/pc 에서는 보이기 */
   nav .menu {float:right; padding-top:5px;display: block;}
   nav .menu li {width:inherit; border:none;}

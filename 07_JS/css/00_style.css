@@ -58,7 +58,7 @@ body {
 a {text-decoration: none;color: var(--black);}
 li {display: block; list-style-type: none;}
 
-#page {width: 99vw; height: 99vh; margin: 0 auto;}
+#page {width: 99vw; margin: 0 auto;}
 
 /* TODO : 주 버튼 */
 .primary-btn {
