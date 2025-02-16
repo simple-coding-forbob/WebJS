@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./css/12_hover_show_hide.css">
+   <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #wrap {
+        width: 100px;
+        height: 100px;
+        border: 1px solid green;
+    }
+    #box {
+       width: 100%;
+       height: 100%;
+       background-color: rgba(0, 0, 0, 0.1);
+       padding: 10px;
+       display: none;
+    }
+    #box > p {font-size: 12px;}
+ </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="box"><p>안녕하세요 <br /> hover 하면 <br /> 글이 <br /> 보입니다.</p></div>
+    </div>
+
+
+   <!-- jquery 넣기 -->
+   <script src="http://code.jquery.com/jquery-3.1.0.js"></script>
+   <!-- TODO: 예제 -->
+   <script>
+      // TODO: sub-menu 에 마우스가 올라가면 drop-down 메뉴를 천천히 아래로 보여주고
+      // TODO: 마우스가 내려가면 천천히 위로 숨기세요 
+      $(function () {
+         $("#wrap").hover(function () {
+            $("#box").slideDown();
+         }, function () {
+            $("#box").slideUp();
+         });
+      });      
+   </script>
+</body>
+
+</html>

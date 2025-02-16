@@ -1,5 +1,3 @@
 $(function () {
-    $("#quiz").click(function () {
-        $("html").scrollTop(0);
-    });
-});
+    $('.quiz a').simpleLightbox();
+})
