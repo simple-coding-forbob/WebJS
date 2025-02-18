@@ -15,44 +15,45 @@
 
     <!-- Demo styles -->
     <style>
-      .santa {
-        width: 100%;
+      .dog-cat {
+        width: 99vw;
         height: 60vh;
-        background-image: url("../img/05_01_quiz_1.jpg");
+        background-image: url("../img/08_final_quiz_dog_cat.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
       }
-      .gift {
-        width: 100%;
+      .tree {
+        width: 99vw;
         height: 60vh;
-        background-image: url("../img/05_01_quiz_2.jpg");
+        background-image: url("../img/08_final_quiz_tree.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-      }
-      .swiper {
-        width: 100%;
       }
     </style>
   </head>
 
   <body>
-    <div class="swiper quiz">
+    <!-- TODO : dog-cat, tree 회전시킵니다. -->
+    <!-- TODO : Swiper.js 사용합니다. -->
+    <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <!-- TODO: 1번 배경이미지 사용하기 -->
-          <div class="santa"></div>
+           <!-- TODO: 이미지명 : 08_final_quiz_dog_cat.jpg -->
+          <div class="dog-cat"></div>
         </div>
         <div class="swiper-slide">
           <!-- TODO: 2번 배경이미지 사용하기 -->
-          <div class="gift"></div>
+           <!-- TODO: 이미지명 : 08_final_quiz_tree.jpg -->
+          <div class="tree"></div>
         </div>
       </div>
     </div>
 
     <!-- Swiper JS: 공식사이트) https://swiperjs.com/demos -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./js/01_quiz.js"></script>
+    <script src="./js/01_final_quiz.js"></script>
   </body>
 </html>

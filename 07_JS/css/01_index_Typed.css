@@ -17,7 +17,7 @@
     /* 본문 */
     .container {width: 90%;}
     .content-box {width:33%;}
-    .product-list li {width:inherit; border:none}
+    .product-list li {width:auto; border:none}
     .product-list li a {background-color: var(--white);color: var(--black);}
     .product {width:25%;}
 }
